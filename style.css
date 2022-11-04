@@ -1,0 +1,58 @@
+/* Navbar */
+.navbar-brand{
+    font-family: viga;
+    font-size: 90px:
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background-image: url(img/vegetables-set-left-black-slate.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+.jumbotron .container .display-4 {
+    color: white;
+    margin-right: 120px;
+    font-weight: 100;
+}
+
+.jumbotron .container .display-4 .span {
+    font-height: 500;
+}
+
+
+/* utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.rounded {
+    border-radius: 40px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    
+    .nav-link{
+        color: white : important;
+    }
+    
+    .nav-link:hover::after{
+        content: "";
+        display: block;
+        border-bottom: 3px solid #F0FF42;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    
+    
+}
